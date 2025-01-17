@@ -15,7 +15,9 @@ return [
     |
     */
 
-    'default' => env('CACHE_DRIVER', 'file'),
+    //'default' => env('CACHE_DRIVER', 'file'),
+    // config/cache.php
+'default' => env('CACHE_DRIVER', 'array'),
 
     /*
     |--------------------------------------------------------------------------

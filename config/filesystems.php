@@ -13,8 +13,9 @@ return [
     |
     */
 
-    'default' => env('FILESYSTEM_DISK', 'local'),
-
+    //'default' => env('FILESYSTEM_DISK', 'local'),
+    // config/filesystems.php
+    'default' => env('FILESYSTEM_DISK', 's3'), // Use S3 or similar for file storage
     /*
     |--------------------------------------------------------------------------
     | Filesystem Disks
